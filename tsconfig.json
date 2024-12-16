@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-android-installed-apps": ["./src/index"]
+      "react-native-android-get-installed-apps": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

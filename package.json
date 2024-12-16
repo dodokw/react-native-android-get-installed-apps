@@ -1,5 +1,5 @@
 {
-  "name": "react-native-android-installed-apps",
+  "name": "react-native-android-get-installed-apps",
   "version": "0.1.0",
   "description": "getting installed apps info",
   "source": "./src/index.tsx",
@@ -37,7 +37,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-android-installed-apps-example",
+    "example": "yarn workspace react-native-android-get-installed-apps-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -52,14 +52,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dodokw/react-native-android-installed-apps.git"
+    "url": "git+https://github.com/dodokw/react-native-android-get-installed-apps.git"
   },
   "author": "dodokw <dodokw@naver.com> (https://github.com/dodokw)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dodokw/react-native-android-installed-apps/issues"
+    "url": "https://github.com/dodokw/react-native-android-get-installed-apps/issues"
   },
-  "homepage": "https://github.com/dodokw/react-native-android-installed-apps#readme",
+  "homepage": "https://github.com/dodokw/react-native-android-get-installed-apps#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
