@@ -65,7 +65,7 @@ const getSystemAppName = () => {
 };
 ```
 
-## installedAppInfo Properties
+## getApps, getNonSystemApps, getSystemAppName Properties
 
 | Property Name    | Type   | Description (KR)      | Description (EN)    |
 | ---------------- | ------ | --------------------- | ------------------- |

@@ -1,5 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
+import {
+  Text,
+  View,
+  StyleSheet,
+  TouchableOpacity,
+  Platform,
+} from 'react-native';
 import {
   multiply,
   getApps,
@@ -15,7 +21,7 @@ export default function App() {
   }, []);
 
   const getInstalledAppName = () => {
-    console.log('getting App');
+    Platform.OS === 'ios';
     getApps()
       .then((app) => {
         if (app) {

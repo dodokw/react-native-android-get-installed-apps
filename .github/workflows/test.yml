@@ -1,0 +1,23 @@
+name: Test Library
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        react-native-version: ['0.71', '0.72', '0.73', '0.74', '0.75', '0.76']
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '23.x'
+      - name: Install dependencies
+        run: npm ci
+      - name: Install specific React Native version
+        run: npm install react-native@${{ matrix.react-native-version }}
+      - name: Run tests
+        run: npm test
